@@ -1,0 +1,64 @@
+Tori:
+	1. Kitarat
+	
+	- Akustiset
+		-Nylonkieliset
+		-Teräskieliset
+		-12-kieliset
+		- baritonet
+		-Akustisten vahvistimet
+		-Tarvikkeet
+	
+	- Sähkökitarat
+		-Sähkökitarat
+			-6 kieliset
+			-7&8 kieliset
+			- baritonet
+			-12 kieliset
+			
+		-Vahvistimet
+			- nupit
+			- combot
+			- kaiuttimet
+				-1x12, 2x12,4x12, 1x10, 2x10, 4x10
+	-efektit
+	-tarvikkeet
+
+	2. Bassot
+
+	-Bassot
+		-akustiset bassot
+	-bassovahvistimet
+		-nupit
+		-combot
+		-kaapit
+		-tarvikkeet
+	
+	3. Rummut
+		-rumpusetit
+		-cymbaalit
+		-perk.
+		-tarvikkeet
+	
+	4. Keyboards
+		-keyboards
+		-real pianos
+		-organs
+	
+	5. Microphones
+		-dynamic
+		-Condenser
+		-ribbon
+		-tarvikkeet
+	
+	6. PA
+		-aktiivit
+		-passiivit
+		-mikserit
+		-päättärit
+
+	7. Studio
+	8. Horns
+	9. Etchnic
+	10. DJ
+	11. Liveäänentoisto/valo

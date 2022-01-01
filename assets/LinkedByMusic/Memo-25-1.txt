@@ -1,0 +1,22 @@
+Työnalla on ollut seuraavaa:
+- HTML:ää testipohjaksi.
+- CSS:t generoitu testipohjalle LESS:llä
+- jQueryllä väännetty scrollieventtejä ja muuta kivaa testipohjalle.
+
+Testipohjan tunkkaan 'in_developement' -osioon kohta.
+
+
+Tarvittavaa osaamista:
+- Javascript/jQuery (backbone.js:ää jos tietää niin ihan älyttömän hyvä juttu)
+
+Tässä vaiheessa en tarkemmin mietittyäni osaa sanoa muuta ennen kuin tutustunu itse tuohon backboneen kunnolla. Todennäköisesti myös JSON-osaaminen tulisi tarpeen. Lisäksi jos osaa hyvin perus HTML/CSS niin käyttöä voisi olla jossain välissä ainakin.
+
+Päivitän tätä vaikka viimeistään kahden tai kolmen viikon päästä (mainitsinkin vesalle asiasta puhelimessa) kun taas otan tämän projektin työnalle.
+
+
+EDIT: jaa ei toi sivusto toimikkaan privana. Pistän sen publiciin ja linkki:
+https://dl.dropbox.com/u/13275179/LbM-proto-site/index.html
+
+Toi on sitten public, eli elkää jakako tota linkkiä mihkään ellette halua jonkun/kaikkien näkevän tota.
+
+-Antti

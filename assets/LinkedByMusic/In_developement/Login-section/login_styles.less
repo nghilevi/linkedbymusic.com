@@ -1,0 +1,238 @@
+  /*                                                    *
+    *                                                 *
+      * - One does not simply comprehend this shit. *
+    *                                                 *
+  *                                                     */
+
+*{
+  margin:0; border:0; padding:0;
+}
+html{
+
+  margin:0; border:0; padding:0;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+body{
+  background: url(./images/bg.jpg) no-repeat center;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+
+@logo-login-fix:265px;
+
+.border-radius ( @radius: 2px ) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+.align-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-button{
+  .border-radius;
+  padding:5px 45px 5px 0;
+  height: 45px;
+  width: 115px;
+  opacity: .6;
+  cursor: pointer;
+  text-align: right;
+
+
+  p{
+    line-height: 45px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Tahoma';
+  }
+}
+
+.login-button:hover{
+  opacity: 1;
+}
+
+/*                                *
+  *                             *
+    * -Here begins the divs.  *
+  *                             *
+*                                 */
+.login-wrap{
+  width: 1000px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+
+  .logo-header{
+    width: 100%;
+    position: relative;
+
+
+    img{
+      position: absolute;
+      left: 50%;
+      margin-left: -240px;
+      z-index: 999;
+      top: -@logo-login-fix;
+
+    }
+  }
+
+  .login{
+    background: rgba(0,0,0, .4);
+    width: 100%;
+    position: relative;
+    margin-top: @logo-login-fix;
+    padding: 125px 0;
+
+    article{
+      width: 800px;
+      background: rgba(0,0,0, .3);
+      position: relative;
+      box-sizing:border-box;
+      padding: 25px;
+
+      .section-bg{
+        /*background: rgba(0,0,0, .3);*/
+
+
+        .login-section{
+          width: 100%;
+          height: 200px;
+          
+
+          .outside-login{
+            background: rgba(0,0,0, .3);
+            padding: 25px;
+            float: left;
+
+            .fb-login{
+              margin-bottom:25px;
+              background: #3b5b99 url(./images/fb-logo.png) no-repeat left center;
+              background-size: 40px;
+            }
+            .twitter-login{
+              background: #00aced url(./images/twitter-logo.png) no-repeat left center;
+              background-size: 40px;
+            }
+          }
+
+          span{
+            float: left;
+            color: rgb(179,214,112);
+            margin: 80px 0 0 -10px;
+            width: 400px;
+            text-align: center;
+          }
+
+          span:before{
+            content: "—";
+            margin-right: 10px;
+          }
+
+          span:after{
+            content: "—";
+            margin-left: 10px;
+          }
+          .login-form{
+            background: rgba(0,0,0, .3);
+            padding: 25px;
+            float: left;
+            form{
+
+
+            input{
+              width: 140px;
+            }
+
+            input[type="text"]{
+              border:1px solid rgb(66,66,66);
+              padding: 5px 10px;
+              margin-bottom: 10px;
+            }
+          }
+        }
+        }
+
+
+
+        .divider{
+          clear: both;
+          position: relative;
+          width: 100%;
+          margin-left: -25px;
+          margin-top: 25px;
+          margin-bottom: 25px;
+          padding-right: 50px;
+          height: 50px;
+          background: rgba(0,0,0, .4);
+         
+          span{
+            position: absolute;
+            top: 3px;
+            left: 0;
+            border-top: 2px dotted;
+            border-bottom: 2px dotted;
+            border-color: rgba(179,214,112, .6);
+            text-align: center;
+            height: 40px;
+            width: 100%;
+          
+            p{
+              color: rgba(179,214,112, .6);
+              font-size: 18px;
+              line-height: 40px;
+            }
+          }
+
+
+
+
+        }
+
+        .register-section{
+          width: 100%;
+
+
+          a{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-decoration: none;
+            color: rgb(33,33,33);
+
+
+            button{
+              padding: 10px 25px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 20px;
+              display: block;
+              cursor: pointer;
+              background: rgb(179,214,112);
+              font-family: 'Tahoma';
+              font-size: 20px;
+
+              .border-radius;
+
+            }
+          }
+
+        }
+
+      }
+    }
+  }
+}

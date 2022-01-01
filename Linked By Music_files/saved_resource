@@ -1,0 +1,5 @@
+body{background-image: url('bg.jpg') top no-repeat fixed; -webkit-background-size: cover; -moz-background-size: cover; }
+img {
+max-width: 55%;
+height: auto;
+}

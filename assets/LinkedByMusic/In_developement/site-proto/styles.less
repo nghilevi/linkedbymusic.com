@@ -1,0 +1,536 @@
+  /*                                                    *
+    *                                                 *
+      * - One does not simply comprehend this shit. *
+    *                                                 *
+  *                                                     */
+
+*{
+  margin:0; border:0; padding:0;
+}
+html{
+
+  margin:0; border:0; padding:0;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+body{
+  background: @bg-color;
+  font-family: 'edmondsans_regularregular';
+
+
+}
+
+h2{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+input[type="text"], input[type="password"], textarea, select { 
+    outline: none;
+}
+
+::selection {
+  background:@hl-color;
+  color:#ffffff;
+}
+
+::-moz-selection {
+  background:@hl-color;
+  color:#ffffff;
+}
+
+
+
+@border1: 1px solid rgb(200,200,200);
+@border1d: 1px solid rgb(85,85,85);
+
+@feed-container-w: 701px;
+@content-padding: 33px;
+@basic-margin: 25px;
+
+@bg-color: #f8faf8;
+@bg-color2: #f5f5f5;
+@hl-color: #13a5d6;
+@bordercolor85: rgb(85,85,85);
+@color66: #424242;
+
+
+.border( @border: 2px solid rgb(85,85,85); ){
+  border-top: @border1d;
+  border-right: @border;
+  border-bottom: @border1d;
+  border-left: @border;
+}
+
+.border-blu( @border: 1px solid @hl-color; ){
+  border-top: @border;
+  border-right: @border;
+  border-bottom: @border;
+  border-left: @border;
+}
+
+.border-radius ( @radius: 3px ) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+.text-input{
+        border: 0;
+        height: 100%;
+        line-height: 1.6;
+        padding-left:60px;
+        width: 100%;
+        .border-radius;
+}
+
+.align-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*                                *
+  *                             *
+    * -Here begins the divs.  *
+  *                             *
+*                                 */
+
+
+#site-wrap{
+	width: 1000px;
+  position: relative;
+  .align-center;
+
+  #site-header{
+    /*padding-top: 71px;
+    padding-bottom: 75px;*/
+
+    margin-top: 200px;
+
+    h1 {
+      font-size: 60px;
+      font-family: 'maven_pro_light_200regular';
+      font-weight: 100;
+      text-align: center;
+      color: rgb(66,66,66);
+
+      position: fixed;
+      top: 71;
+      left: 500;
+    }
+
+    .hl-LbM{
+      font-family: 'maven_pro_light_300regular';
+      color: #565656;
+    }
+
+    .hl-by{
+      font-size: 56px;
+    }
+
+    p { font-size: 16px;
+      a { text-decoration: none;
+        &:hover { border-width: 1px }
+      }
+    }
+  }
+  
+  /*                                                    *
+    *                                                 *
+      * - Past Header stuff. Heading to Navigation. *
+    *                                                 *
+  *                                                     */
+
+  #main-nav{
+    width: 1000px;
+    height: 50px;
+    list-style: none;
+    background: @hl-color;
+    position: relative;
+    line-height: 2.5;
+    z-index: 999;
+
+    #lbmdd{
+      width: 75px;
+      height: 100%;
+      color: #fff;
+      font-family: 'edmondsans_mediumregular';
+      float: left;
+      text-align: center;
+      border-right: 2px solid #fff;
+      cursor: pointer;
+    
+      .hl-b2{
+        position: relative;
+        top: 0.1em;
+      }
+      .hl-m2{
+        position: relative;
+        top: -0.05em;
+      }
+      .selector-dd{
+        position: absolute;
+        bottom: 12;
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 5.2px 3px 0 3px;
+        border-color: #ffffff transparent transparent transparent;
+      }
+
+    }
+
+    ul{
+      display: inline-block;
+      height: 100%;
+      width: 900px;
+      
+      clear: both;
+     
+      a:first-child li{
+        margin-left: 55px;
+      }
+
+      li{
+        color: #fff;
+        text-transform:uppercase;
+        display: inline-block;
+        margin-left: 100px;
+      }
+
+
+    }
+  }
+
+  /*                                                    *
+    *                                                 *
+      * - Past Nav stuff. Heading to Main content.  *
+    *                                                 *
+  *                                                     */
+
+
+  #content-wrap{
+    width: 100%;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+    border: @border1;
+    /* height: 1500px; */
+    margin-top: @basic-margin;
+    background: #fff;
+    position: relative;
+
+
+
+    #sidebar{
+      width: 296px;
+      border-right: @border1;
+      height: 100%;
+      background: #fff;
+      position: relative;
+      float: left;
+          
+      ::-webkit-scrollbar {
+          width: 8px;
+      }
+       
+      ::-webkit-scrollbar-track {
+          -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3); 
+          border-radius: 1px;
+      }
+       
+      ::-webkit-scrollbar-thumb {
+          border-radius: 1px;
+          -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.6); 
+      }
+
+
+      #sort{
+        width: 100%;
+        height: 71px;
+        border-bottom: @border1;
+        color: @hl-color;
+        line-height: 71px;
+        position: relative;
+
+        h2{
+          padding-left: @basic-margin;
+          cursor: pointer;
+        }
+
+        #sb-control{
+          background: @hl-color;
+          width: 53px;
+          height: 35px;
+          .border-radius;
+          position: absolute;
+          right: 14px;
+          bottom: 18px;
+          cursor: pointer;
+
+          .stripe{
+            background: #fff;
+            height: 3px;
+            width: 43px;
+            position: absolute;
+            margin-left: 5px;
+
+
+
+          }
+            .stripe1{
+              margin-top: 7px;
+            }
+
+            .stripe2{
+              margin-top: 16px;
+            }
+
+            .stripe3{
+              margin-top: 25px;
+            }
+
+        }
+
+        .selected{
+          text-decoration: underline;
+          font-family: 'edmondsans_mediumregular';
+          cursor: text;
+        }
+
+      }
+    /*.sb-search{
+      padding: 2px 0 0 3px;
+      width: 293px;
+      height: 39px;
+      div{
+
+      }
+    }*/
+      #sidebar-feed{
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+
+
+
+        .odd{
+          background: #fff;
+        }
+
+        .even{
+          background: @bg-color2;
+        }
+
+        .sb-item{
+          padding: 0 10px;
+          margin: ;
+
+          header{
+            height: 40px;
+            display: inline-block;
+            width: 100%;
+            margin-top: 15px;
+
+            
+
+
+            .sb-upvotes, .sb-id{
+              float: left;
+              margin-left: 10px;
+              color: @color66;
+            }
+
+            .sb-timestamp{
+              float: right;
+              margin-right: 10px;
+              color: rgb(99,99,99);
+            }
+          }
+
+          p{
+            font-size: 14px;
+            color: @hl-color;
+            margin: 10px 0;
+          }
+
+          footer{
+            height: 35px;
+            
+            p{
+              color: rgb(133,133,133);
+            }
+          }
+        }
+
+      }
+    }
+
+  /*                                                                                  *
+    *                                                                               *
+      * - Past Sidebar stuff. Still in main content. Entering to feed container.  *
+    *                                                                               *
+  *                                                                                   */
+
+    #feed-container{
+      width: @feed-container-w;
+      position: relative;
+      float: right;
+
+      .feed-search{
+        width: @feed-container-w - @content-padding;
+        height: 40px;
+        background: @bg-color2;
+        
+        border-bottom: @border1;
+        padding-top: 3px;
+        padding-left: @content-padding;
+        
+        z-index: 69;
+        position: relative;
+ 
+        div{
+          width: 488px;
+          height: 35px;
+          background: #fff;
+
+          .border;
+          .border-radius;
+
+          position: relative;
+          opacity: .85;
+          
+          &:hover{
+            opacity: 1;
+          }
+
+          .search-icon{
+            border-right: 2px solid @bordercolor85;
+            height: 24px;
+            width: 24px;
+            background: url(images/search-icon.png) no-repeat;
+            position: absolute;
+            display: block;
+            top:6px;
+            left: 10px;
+            padding-right: 10px;
+          }
+
+          input{
+            .text-input;
+
+
+            &:active, &:focus{
+              -webkit-box-shadow: inset 0px 0px 2px 0px rgba(66,66,66, .8);
+              box-shadow: inset 0px 0px 2px 0px rgba(66,66,66, .8);
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      #feed{
+        
+
+        #status-wrap{
+          margin-top: @content-padding;
+          margin-bottom: @content-padding;
+          padding-bottom: @content-padding;
+          border-bottom: @border1;
+
+          #status{
+            .border-blu;
+            .border-radius;
+            height: 40px;
+
+            input{
+              .text-input;
+              padding-left:15px;
+
+              &:active, &:focus{
+                -webkit-box-shadow: inset 0px 0px 2px 0px rgba(19, 165, 214, .6);
+                box-shadow: inset 0px 0px 4px 0px rgba(19, 165, 214, .6);
+                opacity: 1;
+              }
+            }
+          }
+        }
+
+        .post{
+          font-size: 14px;
+          border: @border1;
+          width: 360px;
+          background: #fff;
+          margin-bottom: 50px;
+          position: relative;
+
+          header{
+            height: 34px;
+            background: @bg-color;
+            padding: 11px;
+            position: relative;
+
+            .profile-img{
+              width: 30px;
+              height: 30px;
+              display: block;
+              float: left;
+            }
+
+            .name{
+              color: @hl-color;
+            }
+          }
+
+          div{
+            padding: 11px;
+
+            p{
+
+            }
+
+            a{
+              color: @hl-color;
+              text-decoration: underline;
+            }
+
+            .link-preview{
+
+            }
+          }
+
+          footer{
+            background: @bg-color2;
+            height: 19px;
+            padding: 11px;
+
+            p{
+              display: inline-block;
+              color: @hl-color;
+              margin-left: @basic-margin;
+              line-height: 19px;
+            }
+          }
+        }
+      }
+
+      .content{
+        width: 486px;
+        margin-left: @content-padding;
+      }
+
+    }
+
+  }
+
+
+
+}
+
+
+
+
+

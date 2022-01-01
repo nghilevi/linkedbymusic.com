@@ -1,0 +1,80 @@
+/* Add whatever you need to your CSS reset */
+html, body, h1, form, fieldset, input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  }
+
+body { font-family: Helvetica, Arial, sans-serif; font-size: 16px; }
+
+        #registration {
+			
+			opacity:0.8;
+			color: #fff;
+
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+			border-radius: 5px;
+            margin: 10px;
+			width: 430px;
+			
+			position: fixed;
+			margin-left:11%;
+			
+			top:40%;
+            }
+
+ #registration a {
+      color: #8c910b;
+      
+      }
+	  
+#registration fieldset {
+      padding: 20px;
+      }
+	  
+input.text {
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      border:solid 1px #444;
+      font-size: 16px;
+      width: 90%;
+      padding: 10px 8px 10px 30px;
+      -moz-box-shadow: 0px 1px 0px #777;
+      -webkit-box-shadow: 0px 1px 0px #777;
+	  
+          );
+      color:#333;
+      text-shadow:0px 1px 0px #FFF;
+}	  
+
+
+
+	
+#registerNew {
+	width: 250px;
+	height: 40px;
+	border: none;
+	text-indent: -9999px;
+	background: url('createAccountButton.png') no-repeat;
+	cursor: pointer;
+	float:left;
+	}
+	
+	#registerNew:hover { background-position: 0px -41px; }
+	#registerNew:active { background-position: 0px -82px; }
+	
+ #registration p {
+      position: relative;
+      }
+	  
+fieldset label.infield /* .infield label added by JS */ {
+    color: #333;
+    text-shadow: 0px 1px 0px #fff;
+    position: absolute;
+    text-align: left;
+    top: 5px !important;
+    left: 20px !important;
+    line-height: 29px;
+    }

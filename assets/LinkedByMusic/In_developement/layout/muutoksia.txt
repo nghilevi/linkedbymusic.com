@@ -1,0 +1,23 @@
+Login muutokset:
+- Twitteri siihen fb:n per‰‰n. Twitterist‰ lis‰ks kaikki pois, eli j‰‰ vain <img /> jolla joku twitter.png -urli tjms. Siell‰ taitaa itseasiassa olla jo oikea kuva ftp:ll‰ (oliskohan ollu t.png).
+
+- Jos FB:n ja Twitterin sais yhteisen divin sis‰‰n ni olis kivaa.
+
+Etusivun muutokset.
+
+Navi:
+- Etusivu puuttuu navista.
+- Bannerikuva taustalle takas.
+
+Sidebar:
+- Se conffipainike/filtteri pit‰s olla joku painike vaan, josta p‰‰see k‰siksi dropdown-menuun painamalla sit‰. Ite tekisin sen piilotetulla elementill‰, jossa olis se menu sis‰ll‰, ja jonka sais javascriptill‰ n‰kyviin. Mut en sit tii‰ miten drupalilla on parasta.
+
+
+
+Main:
+- Toi Search pit‰s saada siihen vaikka ihan fakena. Sit noi pit‰s p‰‰st‰ yhdist‰m‰‰n niinku tuossa layout-v3-2-jpg:ss‰ on. Eli k‰yt‰nnˆss‰ tarviin siihen kaks tai yhen buttonin joita vois sit vaikka javascriptill‰ conffata. Eli noi search ja status vois olla ihan vaan per‰kk‰in tai jotain. Korjaan ne sit CSS:ll‰.
+
+
+Lis‰ksi:
+- Noita valmiita tyylej‰ pit‰s nyt jotenkin saada karsittua tuolta pois. Esim sidebarissa on tableilla ja td:ill‰ omat borderit. Mun pit‰‰ noi p‰‰llekirjottaa ellei niit‰ saa poistettua ja toi p‰‰llekirjottaminen on v‰h‰n typer‰‰ kun pit‰‰ kuitenki jyr‰‰ jollain divill‰ ne.
+- T‰n lis‰ks toi drupal on nyt generoinu noin nelj‰ kertaa enemm‰n divej‰ kun tarve olis, joka tekee t‰st‰ v‰h‰n hankalaa, mutta sille ei taida mahtaa mit‰‰n? 

@@ -1,0 +1,779 @@
+/* Page and genereral module styles */
+
+/* Gutters - if gutters are set in theme settings they will override these
+   values: see Extensions > Modify Output > Design */
+#main-content,
+.block-inner,
+.pane-inner,
+.menu-wrapper,
+.branding-elements,
+.breadcrumb-wrapper,
+.attribution,
+.at-panel .rounded-corner,
+.block-panels-mini > .block-title,
+div.messages {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* Panel pages need negative margin equal to the gutter width applied to #content,
+  this is taken care of in theme settings as per above for normal gutters */
+#content .panel-display,
+#content .panel-flexible {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.columns-inner {
+  padding-top: 20px;
+}
+
+#page > header {
+  clear: both;
+  padding: 20px 0 0;
+  background: url("/Header1.jpg") repeat scroll 0 0 transparent;
+}
+#branding {
+  float: left;
+  margin: 0 0 40px;
+  width: 40%;
+}
+#logo {
+
+}
+#page > header > hgroup {
+  line-height: 1.2;
+  margin: 0 20px;
+}
+
+h1#site-name { /* 48px */
+  font-size: 3.692em;
+  margin: 0 0 0.2em 0;
+  padding: 0;
+}
+h2#site-slogan {
+  font-size: 1.077em;
+  margin: 0;
+  padding: 0;
+}
+#site-name {
+  font-size: 1.846em;
+}
+#site-name a    {
+  text-decoration: none;
+}
+#site-name a:visited {}
+#site-name a:hover   {}
+#site-name a:focus   {}
+#site-name a:active  {}
+
+#site-slogan {
+  font-size: 1.077em;
+  font-weight: 400;
+}
+
+
+h1#page-title {
+  margin-top: 0;
+}
+.in-maintenance h1#page-title {
+  padding: 10px;
+  margin-top: 0;
+}
+#content-column,
+.region-sidebar-first,
+.region-sidebar-second {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.region-content-aside {
+  padding-top: 20px;
+}
+.region-tertiary-content {
+  padding-bottom: 20px;
+}
+
+a.feed-icon {
+  padding: 10px;
+}
+
+/* Footer - the main page footer only */
+#page > footer {
+  padding: 20px 0;
+}
+
+/* Feed icons */
+.feed-icon img {
+  padding: 0 10px;
+}
+
+/* Search results list. */
+.search-results {
+  margin: 0;
+}
+.search-results .search-result {}
+.search-results .title {
+  font-size: 1.154em;
+}
+.search-results .search-snippet-info {
+  padding: 0;
+}
+.search-results p {
+  margin: 0;
+}
+.search-results .search-snippet {}
+.search-results .search-info {
+  font-size: .923em;
+}
+
+/* Maintenance page */
+.maintenance-page #skip-link {
+  position: absolute;
+  top: -99em;
+}
+.maintenance-page footer {
+  margin: 10px 0 0;
+}
+.maintenance-page footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+div.messages {
+  margin: 5px 20px;
+}
+
+/* Override max-width 100% for Gmaps and Getlocations modules */
+.gmap img,
+.view-gmap img,
+#getlocations_map_canvas img {
+  max-width: none;
+}
+
+/* Collapsible region */
+.js .region-collapsible,
+.collapsible-toggle {
+  display: none;
+}
+.region-collapsible-wrapper {
+  display: none;
+}
+.toggle-active .region-collapsible-wrapper {
+  display: block;
+}
+.section-collapsible,
+.region-highlighted {
+  padding: 1em 0;
+}
+.js .section-collapsible {
+  bottom: 0;
+  height: 50%;
+  height: auto !important;
+  max-height: 50%;
+  position: fixed;
+  right: 0;
+  z-index: 100;
+}
+.section-collapsible.toggle-active {
+  overflow: auto;
+  -moz-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+.region-collapsible {
+  padding: 15px 30px 15px 15px;
+  overflow: hidden;
+}
+.region-collapsible  .block {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.js .collapsible-toggle {
+  border: none;
+  display: block;
+  font-size: 1.077em;
+  font-weight: 500;
+  margin: 0;
+  position: relative;
+  text-transform: uppercase;
+}
+.collapsible-toggle a,
+.collapsible-toggle a:visited {
+  background: url(images/black.png) no-repeat 16px -248px;
+  bottom: 0;
+  display: inline-block;
+  height: 20px;
+  padding: 1em;
+  position: fixed;
+  right: 0;
+  text-indent: -999em;
+  width: 20px;
+  z-index: 1;
+  -moz-border-radius: 4px 0 0 0;
+  -webkit-border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
+  -moz-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 12px rgba(0,0,0,0.5);
+  box-shadow: 0 0 12px rgba(0,0,0,0.5);
+}
+.toggle-active .collapsible-toggle a {
+  background-position: 16px -390px;
+  position: relative;
+  float: right;
+  -moz-border-radius: 0 0 0 4px;
+  -webkit-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.collapsible-toggle a:hover,
+.collapsible-toggle a:focus,
+.collapsible-toggle a:active {
+  background-image: url(images/gray.png);
+  outline: 0;
+}
+.link { background-position: 0 0; }
+.locked { background-position: 0 -66px; }
+.minus { background-position: 0 -132px; }
+.plus { background-position: 0 -198px; }
+.popout { background-position: 0 -264px; }
+.search { background-position: 0 -330px; }
+.x { background-position: 0 -396px;}
+
+
+.content-inner {
+    margin-top:0px;
+}
+
+
+#variantpage, ul.secondary, .section-collapsible, .region-highlighted, #columns {
+    background:none;
+}
+#block-system-main .region-one-main{
+    background: none repeat scroll 0 0 rgba(22, 22, 22, 0.4);
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 335px;
+    padding: 61px 0;
+    width: 450px;
+    
+}
+#variantpage .region-inner{
+    width: 300px;
+    background: rgba(179, 214, 112, .55);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0 40px 0;
+      
+}
+#variantpage #user-login-form{
+    width: 225px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#variantpage #user-login-form .form-text{
+    padding: 0 10px;
+    vertical-align: middle;
+    width: 205px;
+    border: 1px solid #55790f !important;
+    background-color: #ffffff !important;
+    box-shadow: inset 0 0 3px 0 rgba(0,0,0, .65);
+    margin-top: 25px; 
+}
+#variantpage #user-login-form input{
+    width: 100%;
+    height: 55px;
+    background: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 40px;
+    outline: none; 
+}
+#variantpage .form-submit{
+    margin-bottom: 35px;
+}
+#variantpage .registerbutton .block-inner{
+    margin-left:auto;
+    margin-right: auto;
+    width:225px;
+    height:55px;
+    vertical-align:middle;
+    background: #b3d670;
+    border-radius: 2px;
+      
+}
+  
+#variantpage .registerbutton a{
+    color: #222e0b;
+    font-size: 20px;
+    line-height: 55px;
+    text-decoration: none; 
+  
+}
+  
+#variantpage .block-inner p{
+ text-align:center;   
+}
+#variantpage li {
+    display: none;
+}
+#variantpage .form-item label {
+    display: none;
+}
+.form-item {
+margin:none;
+}
+.facebooklogin {
+    color: white;
+    display: block;
+    text-align: center;
+}
+.facebooklogin h2 {
+    color: white;
+    margin-left:25%;
+}
+#callaction{
+    overflow: visible;
+    width: 450px;
+    margin-left: -75px;
+    height: 45px;
+    position: relative;
+    text-align: center;
+    background: rgba(46,46,46, .45);
+    box-shadow: 0 0 5px 0 rgba(0,0,0, .7);
+}
+  
+#callaction .block-inner {
+    height: 36px;
+    width: 100%;
+    position: absolute;
+  
+    background: none;
+    top: 3px;
+  
+    border-top: dashed 1px rgba(255,255,255, .35 );
+    border-bottom: dashed 1px rgba(255,255,255, .35 );
+}
+  
+#callaction .block-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+  
+#callaction p {
+    line-height: 36px;
+    color: rgba(255,255,255, .9);
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.three-50-25-25 > .region, .three-25-50-25 > .region, .three-25-25-50 > .region, .three-inset-right > .region-three-inset-right-sidebar, .three-inset-left > .region-three-inset-left-sidebar {
+    width: 24.5%;
+}
+.front .image-style-userpiclogo {
+    width: 70px;
+}
+
+  
+input[type="submit"]{
+        cursor: pointer;
+}
+
+td tr:hover{
+        background:white;
+-ms-transition: all 1s ease-in-out;
+-webkit-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+
+#content .logged-in {
+    background: none repeat scroll 0 0 snow;
+    padding: 10px;
+}
+
+
+Basic colors:
+
+Lime Green:rgb(179, 214, 112); // 80% / 90% / 100%
+
+Content-width: 1140px;
+Menu without padding: 75px + 2px + 1063 = 1140px;
+
+*/
+
+
+
+/* Before menu */
+
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+#header .region .region-inner{
+    display: inline-block;
+}
+
+/* First nav */
+
+
+
+
+#block-superfish-1{
+    width: 75px;
+    height: 50px;
+    background: rgba(150,150,150, .6);
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+}
+
+#block-superfish-1 .block-inner{
+    margin: 0;
+    padding: 0;
+    width: 73px;
+    height: 50px;
+    background: rgba(179, 214, 112, .9);
+
+    /* If problems with firefox/IE, try this.
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    */
+}
+
+.sf-hidden{
+    display: none;
+}
+
+
+#superfish-1 {
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#superfish-1 .menuparent{
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    background: url(https://dl.dropboxusercontent.com/u/13275179/lbm-logo.png) no-repeat 50% 50%;
+}
+
+#superfish-1 .menuparent a{
+    color: rgba(0,0,0, .0001);
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+/* Second nav */
+
+#block-menu-menu-main-menu2{
+    height: 50px;
+    width: 1063px;
+    background: rgba(179, 214, 112, .8);
+    margin-bottom: 0;
+    float: left;
+}
+
+#block-menu-menu-main-menu2 div, #block-menu-menu-main-menu2 ul{
+    height: inherit;
+}
+
+#block-menu-menu-main-menu2 .menu{
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    display: table;
+    height: inherit;
+}
+
+#block-menu-menu-main-menu2 .menu li{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: table-cell;
+}
+
+#block-menu-menu-main-menu2 .menu a{
+    color: #231F20;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+#page .container {
+    width: 100%;
+    max-width: none;
+}
+
+#columns{
+    width: 100%;
+}
+
+#branding, #header .region, #columns .columns-inner{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* - Sitefix ends here. - */
+
+body{
+    -webkit-font-smoothing: antialiased;
+    background-color: #ffffff;
+}
+
+#header {
+    
+    overflow-x: visible;
+    width: 100%;
+    height: 320px;
+}
+
+#header .region .region-inner{
+    display: inline-block;
+}
+
+#branding {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.site-logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* First nav */
+
+
+
+
+#block-superfish-1{
+    width: 77px;
+    height: 50px;
+    background: rgba(150,150,150, .6);
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+}
+
+#block-superfish-1 .block-inner{
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    height: 50px;
+    background: rgba(179, 214, 112, .9);
+
+    /* If problems with firefox/IE, try this.
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    */
+}
+
+.sf-hidden{
+    display: none;
+}
+
+
+#superfish-1 {
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#superfish-1 .menuparent{
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    background: url(https://dl.dropboxusercontent.com/u/13275179/lbm-logo.png) no-repeat 50% 50%;
+}
+
+#superfish-1 .menuparent a{
+    color: rgba(0,0,0, .0001);
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+/* Second nav */
+
+#block-menu-menu-main-menu2{
+    height: 50px;
+    width: 1063px;
+    background: rgba(179, 214, 112, .8);
+    margin-bottom: 0;
+    float: left;
+}
+
+#block-menu-menu-main-menu2 div, #block-menu-menu-main-menu2 ul{
+    height: inherit;
+}
+
+#block-menu-menu-main-menu2 .menu{
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    display: table;
+    height: inherit;
+}
+
+#block-menu-menu-main-menu2 .menu li{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: table-cell;
+}
+
+#block-menu-menu-main-menu2 .menu a{
+    color: #231F20;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+/* 
+. 
+. - Header above
+
+-----------------------------
+
+. - Main content...
+. 
+*/
+
+#columns{
+    margin-top: -50px;
+    box-shadow: 0 -3px 6px rgba(0,0,0, .2);
+}
+
+#columns .columns-inner{
+    padding-top: 0;
+}
+
+#content-columns{
+    margin-top: 0;
+}
+
+/*
+*
+*
+    <quote>
+    Sidebar ahead captain!
+
+    -Said no one ever.
+    </quote>
+*
+*
+*/
+
+#columns .region-sidebar-first{
+    margin-top: 0;
+}
+
+.sidebar .block-inner{
+    margin: 0;
+}
+
+.sidebar .view-filters{
+    padding: 10px 15px;
+    border: 1px solid rgb(200,200,200);
+}
+
+/* TEMPORARY */
+
+/* /TEMPORARY */
+
+.sidebar .view-content{
+    padding: 10px;
+    border-left: 1px solid rgb(200,200,200);
+    border-right: 1px solid rgb(200,200,200);
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+.sidebar .view-content a{
+    color: rgb(179, 214, 112);
+    text-decoration: none;
+}
+
+
+.form-item.form-type-radios.form-item-sort-order {
+    display: none;
+}
+.section-collapsible.clearfix.toggle-active {
+    background: none repeat scroll 0 0 white;
+}
+.field-content.bandtitle {
+    padding-left: 10px;
+    position: absolute;
+    top: 100px;
+}
+.field-content.bandtitle a {
+    color: white;
+    text-decoration: none;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2 {
+    border-bottom: 3px solid #7F7F7F;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "hnbc","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-bottom: 2px;
+}
+.front input.form-radio {
+    display: none;
+}
+.front .form-item {
+    display: inline;
+    font-size: 26px;
+}
+
+.panel-flexible.panels-flexible-13.clearfix {
+    color: white;
+    width: 450px;
+}
+#variantpage {color: white;}
+.columns-inner.clearfix {
+    background: none repeat scroll 0 0 white;
+}
+#variantpage .columns-inner.clearfix {
+  background: none;
+}
+
+/*Dropdown buttonit!*/
+ul#actions
+{
+    display:none;
+}
+
+/* 
+. 
+. - Header above
+
+-----------------------------
+
+. - Something below...
+. 
+*/
+  
+/* Temp edit to hide unnecessary labels for the site will be using Placeholders instead. */

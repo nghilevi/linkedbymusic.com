@@ -1,0 +1,42 @@
+Profiili, muusikko:
+
+	-ikä
+	-sukupuoli
+	-syntymäaika
+	-sähköposti
+	-salasana
+	-vaikutteet
+	-bändit joissa soittanut/soittaa
+	-biisejä jotka tehnyt
+		-säveltänyt
+			-kappaleen muut säveltäjät
+		-sanoittanut
+			-kappaleen muut sanoittajat
+		-tuottanut
+			-kappaleen muut tuottajat
+		-sovittanut
+			-kappaleen muut sovittajat
+	-musiikkinäyte/soittonäyte
+	-mahdolliset näytevideot
+	-pääinstrumentti
+		-mistä asti soittanut
+	-muut instrumentit
+		-mistä asti soittanut
+		
+	-laitteisto
+		-tällä hetkellä
+		-exät
+	- genre
+	- valokuvat
+	- ystävät
+	- vapaa kuvaus
+	- paras muisto musiikista
+	- montako keikkaa soittanut
+	- musiikillisen sitoutumisen taso
+	- kuinka usein soittaa
+	- maa
+	- kaupunki
+	- postinumero
+	- mitä myy/haluaa ostaa torilla
+	- mitä etsii wantedista
+	

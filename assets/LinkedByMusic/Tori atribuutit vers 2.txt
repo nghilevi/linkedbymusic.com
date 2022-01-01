@@ -1,0 +1,111 @@
+Tori:
+	1. Kitarat
+	
+	- Akustiset
+		-Nylonkieliset
+		-Teräskieliset
+		-12-kieliset
+		- baritonet
+		-Akustisten vahvistimet
+		-Tarvikkeet
+	
+	- Sähkökitarat
+		-Sähkökitarat
+			-6 kieliset
+			-7&8 kieliset
+			- baritonet
+			-12 kieliset
+			
+		-Vahvistimet
+			- nupit
+			- combot
+			- kaiuttimet
+				-1x12, 2x12,4x12, 1x10, 2x10, 4x10
+	-efektit
+		- pedalit
+		- räkkiefektit
+		- pedalilaudat
+
+	-tarvikkeet
+		- soitinkotelot
+		- mikrofonit
+		- kaulat
+		- kehot
+		- piuhat
+
+	2. Bassot
+
+	-Bassot
+		- sähköbassot
+			- 4 kieliset
+			- 5 kieliset
+			- 6 kieliset
+		- nauhattomat
+		-akustiset bassot
+	-bassovahvistimet
+		-nupit
+		-combot
+		-kaapit
+		-tarvikkeet
+	
+	3. Rummut
+		-rumpusetit
+		-cymbaalit
+		-perk.
+		-tarvikkeet
+	
+	4. Keyboards
+		-keyboards
+		-real pianos
+		-organs
+	
+	5. Microphones
+		-dynamic
+		-Condenser
+		-ribbon
+		-tarvikkeet
+	
+	6. PA
+		-aktiivit
+		-passiivit
+		-mikserit
+		-päättärit
+
+	7. Studio
+	9. Etchnic
+	10. DJ
+	11. valo
+	12. jousisoittimet
+		- viulut
+		- alttoviulut
+		- kontrabassot
+		- sellot
+	13. muut kielisoittimet
+		- banjot
+		- mandoliinit
+		- sitarit
+
+	14. puupuhaltimet
+	15. vaskipuhaltimet
+	16. harmonikat
+	17. liveäänityspalvelut
+	18. studiopalvelut
+	19. kirjallisuus
+	20 valokuvauspalvelut
+	21. graaffinen suunnittelu
+	
+	
+
+
+Myynti-ilmoitukseen
+	- Otsikko
+	- Merkki
+	- Malli
+	- Vapaa selostus
+	- sijainti
+	- Hinta
+	- Kunto 1-10
+
+Myynti ja ostoilmoitukset voisivat toimia samalla hakukoneina, eli tarjota samaa tuotetta, jos jollakulla muulla on sellainen myynnissä tai haluaa ostaa...
+
+

@@ -1,0 +1,46 @@
+Wanted:
+
+	- Muusikko etsii yhtyettä
+	- yhtye etsii muusikkoa
+
+		- Kitaristit
+		- Basistit
+		- Kosketinsoittajat
+		- Laulajat
+		- Rumpalit
+		- banjo
+		- viulu
+		- alttoviulu
+		- sello
+		- mandoliini
+		- saksofoni
+		- trumpetti
+		- pasuuna
+		- tuuba
+		- kontrabasso
+		- huuliharppu
+		- taustalaulajat
+		- huilu
+		- haitari
+		- säkkipilli
+		- perkussio
+		- muut soittimet
+		- Soitonopettajat
+			- Kitaranopettajat
+			- Bassonopettajat
+			- Pianonopettajat
+			- Laulunopettajat
+			- Rumpujenopettajat
+		- Tuottajat
+		- Miksaajat
+		- Äänittäjät
+		- Valomiehet
+		- Keikat
+		- Muut
+
+wanted ilmoitukseen
+
+		- otsikko
+		- musiikkinäyte/soittonäyte
+		- linkki etsijän sivulle
+		-

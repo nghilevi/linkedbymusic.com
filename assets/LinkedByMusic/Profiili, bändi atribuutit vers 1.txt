@@ -1,0 +1,27 @@
+Profiili, bändit
+
+	- nimi
+	- genre
+	- kauanko ollut aktiivinen
+	- etsiikö jäseniä
+	- musiikkinäyte
+	- vaikutteet
+	- kuinka monta keikkaa soittanut
+	- kuinka usein treenaatte
+	- yleiskuvaus
+	- valokuvat
+	- videot?
+	- treenikämppä, onko, missä
+	- laitelista
+	- tulevat keikat
+	- linkit bändin jäseniin
+	- palvelun ulkopuoliset jäsenet
+	- keikkamyynti
+	- menneet keikat
+	- tulevat keikat
+	- tavoitteet
+	- levy-yhtiö?
+	- julkaisut
+	- kappaleet
+
+	

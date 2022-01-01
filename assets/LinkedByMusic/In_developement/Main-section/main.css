@@ -1,0 +1,224 @@
+/* LbM Main.css  
+
+Basic colors:
+
+Lime Green:rgb(179, 214, 112); // 80% / 90% / 100%
+
+Content-width: 1140px;
+Menu without padding: 75px + 2px + 1063 = 1140px;
+
+*/
+
+
+
+/* Before menu */
+
+
+/* - TEMPORARY sitefix - */
+#page .container {
+    width: 100%;
+    max-width: none;
+}
+
+#columns{
+    width: 100%;
+}
+
+#branding, #header .region, #columns .columns-inner{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* - Sitefix ends here. - */
+
+body{
+    -webkit-font-smoothing: antialiased;
+    background-color: #ffffff;
+}
+
+#header {
+    background: url(https://dl.dropboxusercontent.com/u/13275179/Header1.jpg) no-repeat 50% 50%;
+    overflow-x: visible;
+    width: 100%;
+    height: 320px;
+}
+
+#header .region .region-inner{
+    display: inline-block;
+}
+
+#branding {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.site-logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* First nav */
+
+
+
+
+#block-superfish-1{
+    width: 77px;
+    height: 50px;
+    background: rgba(150,150,150, .6);
+    float: left;
+    margin-bottom: 0;
+    position: relative;
+}
+
+#block-superfish-1 .block-inner{
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    height: 50px;
+    background: rgba(179, 214, 112, .9);
+
+    /* If problems with firefox/IE, try this.
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    */
+}
+
+.sf-hidden{
+    display: none;
+}
+
+
+#superfish-1 {
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#superfish-1 .menuparent{
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    background: url(https://dl.dropboxusercontent.com/u/13275179/lbm-logo.png) no-repeat 50% 50%;
+}
+
+#superfish-1 .menuparent a{
+    color: rgba(0,0,0, .0001);
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+/* Second nav */
+
+#block-menu-menu-main-menu2{
+    height: 50px;
+    width: 1063px;
+    background: rgba(179, 214, 112, .8);
+    margin-bottom: 0;
+    float: left;
+}
+
+#block-menu-menu-main-menu2 div, #block-menu-menu-main-menu2 ul{
+    height: inherit;
+}
+
+#block-menu-menu-main-menu2 .menu{
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    display: table;
+    height: inherit;
+}
+
+#block-menu-menu-main-menu2 .menu li{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    display: table-cell;
+}
+
+#block-menu-menu-main-menu2 .menu a{
+    color: #231F20;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+/* 
+. 
+. - Header above
+
+-----------------------------
+
+. - Main content...
+. 
+*/
+
+#columns{
+    margin-top: -50px;
+    box-shadow: 0 -3px 6px rgba(0,0,0, .2);
+}
+
+#columns .columns-inner{
+    background-color: #ffffff;
+    padding-top: 0;
+}
+
+#content-columns{
+    margin-top: 0;
+}
+
+/*
+*
+*
+    <quote>
+    Sidebar ahead captain!
+
+    -Said no one ever.
+    </quote>
+*
+*
+*/
+
+#columns .region-sidebar-first{
+    margin-top: 0;
+}
+
+.sidebar .block-inner{
+    margin: 0;
+}
+
+.sidebar .view-filters{
+    padding: 10px 15px;
+    border: 1px solid rgb(200,200,200);
+}
+
+/* TEMPORARY */
+.views-exposed-form label {
+    display: none;
+}
+/* /TEMPORARY */
+
+.sidebar .view-content{
+    padding: 10px;
+    border-left: 1px solid rgb(200,200,200);
+    border-right: 1px solid rgb(200,200,200);
+    border-bottom: 1px solid rgb(200,200,200);
+}
+
+.sidebar .view-content a{
+    color: rgb(179, 214, 112);
+    text-decoration: none;
+}
+
+
+

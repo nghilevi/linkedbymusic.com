@@ -1,0 +1,217 @@
+/* Style for LbM login */
+
+
+body, .bb-n{
+	/* Notice the temp url */
+	background: url(https://dl.dropboxusercontent.com/u/13275179/lbm-testbg.jpg);
+}
+
+#columns{
+	background: none;
+}
+
+#block-system-main .region-one-main{
+	width: 450px;
+	background: rgba(22,22,22, .4);
+	display: block;
+	padding: 65px 0;
+	float: none;
+	margin-top: 275px;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+.region-inner{
+	width: 300px;
+	background: rgba(179, 214, 112, .55);
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 0 40px 0;
+	position: relative;
+	
+}
+
+
+#frontlogo{
+	position: absolute;
+	margin-left: -260px;
+	left: 50%;
+	top: 50px;
+}
+
+.pane-fboauth-login{
+	height: 120px;
+}
+
+.pane-fboauth-login .block-title{
+	text-align: center;
+	color: #ffffff;
+}
+
+.pane-fboauth-login .block-content{
+	width: 130px;
+	height: 55px;
+	-webkit-border-radius: 0px 2px 2px 0px;
+	border-radius: 0px 2px 2px 0px;
+	background: #3b5b99;
+
+	position: absolute;
+	left: 0;
+}
+
+/*
+	For Twitter's login
+	
+	{
+		width: 130px;
+		height: 55px;
+		-webkit-border-radius: 2px 0 0  2px;
+		border-radius: 2px 0 0  2px;
+		background: #00aced;
+		position: absolute;
+		right: 0;
+	}
+
+	a{
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+		display: block;
+		background: url(t.png) no-repeat 20% 50%;
+	}
+
+*/
+
+.pane-fboauth-login .block-inner{
+
+}
+
+.pane-fboauth-login .block-content a{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	display: block;
+	background: url(f.png) no-repeat 80% 50%;
+}
+
+.middleor p{
+	color: rgba(255,255,255, .5);
+	font-size: 24px;
+}
+
+.middleor p:before{
+	content: "—";
+	display: inline-block;
+	margin: 0 20px;
+	color: rgba(255,255,255, .5);
+}
+
+.middleor p:after{
+	content: "—";
+	display: inline-block;
+	margin: 0 20px;
+	color: rgba(255,255,255, .5);
+}
+
+#user-login-form{
+	width: 225px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#user-login-form .form-text{
+	padding: 0 10px;
+	vertical-align: middle;
+	width: 205px;
+	border: 1px solid #55790f !important;
+	background-color: #ffffff !important;
+	box-shadow: inset 0 0 3px 0 rgba(0,0,0, .65);
+	margin-top: 25px;
+}
+
+#user-login-form input{
+	width: 100%;
+	height: 55px;
+	background: white;
+	border-radius: 2px;
+	border: none;
+	margin-top: 40px;
+	outline: none;
+
+}
+
+.form-submit{
+	margin-bottom: 35px;
+}
+
+#callaction{
+	overflow: visible;
+	width: 450px;
+	margin-left: -75px;
+	height: 45px;
+	position: relative;
+	text-align: center;
+	background: rgba(46,46,46, .45);
+	box-shadow: 0 0 5px 0 rgba(0,0,0, .7);
+}
+
+#callaction .block-inner {
+	height: 36px;
+	width: 100%;
+	position: absolute;
+
+	background: none;
+	top: 3px;
+
+	border-top: dashed 1px rgba(255,255,255, .35 );
+	border-bottom: dashed 1px rgba(255,255,255, .35 );
+}
+
+#callaction .block-content {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#callaction p {
+	line-height: 36px;
+	color: rgba(255,255,255, .9);
+	font-size: 18px;
+	margin: 0;
+}
+
+.registerbutton .block-inner{
+    margin-left:auto;
+    margin-right: auto;
+    width:225px;
+    height:55px;
+    vertical-align:middle;
+    background: #b3d670;
+    border-radius: 2px;
+    
+}
+
+.registerbutton a{
+	color: #222e0b;
+	font-size: 20px;
+	line-height: 55px;
+	text-decoration: none;
+
+}
+
+.block-inner p{
+ text-align:center;   
+}
+
+/* Temp edit to hide unnecessary labels for the site will be using Placeholders instead. */
+
+.form-item label{
+	display: none;
+}
+
+input[type="submit"]{
+		cursor: pointer;
+}
